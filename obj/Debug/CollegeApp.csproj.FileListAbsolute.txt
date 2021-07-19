@@ -1,0 +1,17 @@
+C:\Clinic master\CollegeApp\bin\Debug\CollegeApp.exe.config
+C:\Clinic master\CollegeApp\bin\Debug\CollegeApp.exe
+C:\Clinic master\CollegeApp\bin\Debug\CollegeApp.pdb
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.csproj.AssemblyReference.cache
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.Properties.Resources.resources
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.Student.resources
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.csproj.GenerateResource.cache
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.csproj.CoreCompileInputs.cache
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.exe
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.pdb
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.HomePage.resources
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.Login.resources
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.Home.resources
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.Course.resources
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.Department.resources
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.Lecturer.resources
+C:\Clinic master\CollegeApp\obj\Debug\CollegeApp.LectureRooms.resources
