@@ -44,7 +44,10 @@ namespace CollegeApp
             this.txtCourseName = new System.Windows.Forms.TextBox();
             this.txtDepartmentName = new System.Windows.Forms.TextBox();
             this.txtMobileNumber = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Submit = new System.Windows.Forms.Button();
+            this.Close = new System.Windows.Forms.Button();
+            this.Update = new System.Windows.Forms.Button();
+            this.Delete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,7 +65,7 @@ namespace CollegeApp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(107, 152);
+            this.label2.Location = new System.Drawing.Point(107, 140);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(102, 17);
             this.label2.TabIndex = 1;
@@ -72,7 +75,7 @@ namespace CollegeApp
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label3.Location = new System.Drawing.Point(107, 204);
+            this.label3.Location = new System.Drawing.Point(107, 195);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 17);
             this.label3.TabIndex = 2;
@@ -82,7 +85,7 @@ namespace CollegeApp
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label4.Location = new System.Drawing.Point(107, 256);
+            this.label4.Location = new System.Drawing.Point(107, 250);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 17);
             this.label4.TabIndex = 3;
@@ -92,7 +95,7 @@ namespace CollegeApp
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label5.Location = new System.Drawing.Point(107, 307);
+            this.label5.Location = new System.Drawing.Point(107, 299);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(123, 17);
             this.label5.TabIndex = 4;
@@ -102,7 +105,7 @@ namespace CollegeApp
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label6.Location = new System.Drawing.Point(107, 360);
+            this.label6.Location = new System.Drawing.Point(107, 355);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(103, 17);
             this.label6.TabIndex = 5;
@@ -130,63 +133,112 @@ namespace CollegeApp
             // 
             // txtLecturerID
             // 
-            this.txtLecturerID.Location = new System.Drawing.Point(327, 94);
+            this.txtLecturerID.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLecturerID.Location = new System.Drawing.Point(293, 94);
             this.txtLecturerID.Name = "txtLecturerID";
-            this.txtLecturerID.Size = new System.Drawing.Size(267, 21);
+            this.txtLecturerID.Size = new System.Drawing.Size(267, 24);
             this.txtLecturerID.TabIndex = 8;
             // 
             // txtLecturerName
             // 
-            this.txtLecturerName.Location = new System.Drawing.Point(327, 148);
+            this.txtLecturerName.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLecturerName.Location = new System.Drawing.Point(293, 140);
             this.txtLecturerName.Name = "txtLecturerName";
-            this.txtLecturerName.Size = new System.Drawing.Size(267, 21);
+            this.txtLecturerName.Size = new System.Drawing.Size(267, 24);
             this.txtLecturerName.TabIndex = 9;
             // 
             // txtGender
             // 
-            this.txtGender.Location = new System.Drawing.Point(327, 204);
+            this.txtGender.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGender.Location = new System.Drawing.Point(293, 191);
             this.txtGender.Name = "txtGender";
-            this.txtGender.Size = new System.Drawing.Size(116, 21);
+            this.txtGender.Size = new System.Drawing.Size(116, 24);
             this.txtGender.TabIndex = 10;
             // 
             // txtCourseName
             // 
-            this.txtCourseName.Location = new System.Drawing.Point(327, 252);
+            this.txtCourseName.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCourseName.Location = new System.Drawing.Point(293, 250);
             this.txtCourseName.Name = "txtCourseName";
-            this.txtCourseName.Size = new System.Drawing.Size(321, 21);
+            this.txtCourseName.Size = new System.Drawing.Size(321, 24);
             this.txtCourseName.TabIndex = 11;
             // 
             // txtDepartmentName
             // 
-            this.txtDepartmentName.Location = new System.Drawing.Point(327, 307);
+            this.txtDepartmentName.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDepartmentName.Location = new System.Drawing.Point(293, 299);
             this.txtDepartmentName.Name = "txtDepartmentName";
-            this.txtDepartmentName.Size = new System.Drawing.Size(368, 21);
+            this.txtDepartmentName.Size = new System.Drawing.Size(368, 24);
             this.txtDepartmentName.TabIndex = 12;
             // 
             // txtMobileNumber
             // 
-            this.txtMobileNumber.Location = new System.Drawing.Point(327, 360);
+            this.txtMobileNumber.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMobileNumber.Location = new System.Drawing.Point(293, 351);
             this.txtMobileNumber.Name = "txtMobileNumber";
-            this.txtMobileNumber.Size = new System.Drawing.Size(233, 21);
+            this.txtMobileNumber.Size = new System.Drawing.Size(233, 24);
             this.txtMobileNumber.TabIndex = 13;
             // 
-            // button1
+            // Submit
             // 
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(327, 419);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 32);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "SUBMIT";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Submit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Submit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Submit.ForeColor = System.Drawing.Color.White;
+            this.Submit.Location = new System.Drawing.Point(64, 419);
+            this.Submit.Name = "Submit";
+            this.Submit.Size = new System.Drawing.Size(133, 32);
+            this.Submit.TabIndex = 14;
+            this.Submit.Text = "SUBMIT";
+            this.Submit.UseVisualStyleBackColor = false;
+            this.Submit.Click += new System.EventHandler(this.Submit_Click_1);
+            // 
+            // Close
+            // 
+            this.Close.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Close.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Close.Location = new System.Drawing.Point(629, 419);
+            this.Close.Name = "Close";
+            this.Close.Size = new System.Drawing.Size(95, 32);
+            this.Close.TabIndex = 15;
+            this.Close.Text = "Close";
+            this.Close.UseVisualStyleBackColor = false;
+            this.Close.Click += new System.EventHandler(this.Close_Click);
+            // 
+            // Update
+            // 
+            this.Update.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.Update.Font = new System.Drawing.Font("Meiryo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Update.ForeColor = System.Drawing.Color.White;
+            this.Update.Location = new System.Drawing.Point(263, 419);
+            this.Update.Name = "Update";
+            this.Update.Size = new System.Drawing.Size(102, 32);
+            this.Update.TabIndex = 18;
+            this.Update.Text = "Update";
+            this.Update.UseVisualStyleBackColor = false;
+            this.Update.Click += new System.EventHandler(this.Update_Click);
+            // 
+            // Delete
+            // 
+            this.Delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.Delete.Font = new System.Drawing.Font("Meiryo", 11F, System.Drawing.FontStyle.Bold);
+            this.Delete.ForeColor = System.Drawing.Color.Red;
+            this.Delete.Location = new System.Drawing.Point(453, 419);
+            this.Delete.Name = "Delete";
+            this.Delete.Size = new System.Drawing.Size(107, 32);
+            this.Delete.TabIndex = 19;
+            this.Delete.Text = "Delete";
+            this.Delete.UseVisualStyleBackColor = false;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
             // Lecturer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(805, 463);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Delete);
+            this.Controls.Add(this.Update);
+            this.Controls.Add(this.Close);
+            this.Controls.Add(this.Submit);
             this.Controls.Add(this.txtMobileNumber);
             this.Controls.Add(this.txtDepartmentName);
             this.Controls.Add(this.txtCourseName);
@@ -226,6 +278,9 @@ namespace CollegeApp
         private System.Windows.Forms.TextBox txtCourseName;
         private System.Windows.Forms.TextBox txtDepartmentName;
         private System.Windows.Forms.TextBox txtMobileNumber;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Submit;
+        private System.Windows.Forms.Button Close;
+        private System.Windows.Forms.Button Update;
+        private System.Windows.Forms.Button Delete;
     }
 }
