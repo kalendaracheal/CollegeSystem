@@ -175,6 +175,7 @@ namespace CollegeApp
             this.txtStudentNumber.Name = "txtStudentNumber";
             this.txtStudentNumber.Size = new System.Drawing.Size(269, 22);
             this.txtStudentNumber.TabIndex = 15;
+            this.txtStudentNumber.Text = "5";
             // 
             // txtRegNo
             // 

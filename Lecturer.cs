@@ -154,6 +154,11 @@ namespace CollegeApp
                 cnn.Close();
             }
         }
+
+        private void Lecturer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

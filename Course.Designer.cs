@@ -119,6 +119,7 @@ namespace CollegeApp
             this.txtCourseCode.Name = "txtCourseCode";
             this.txtCourseCode.Size = new System.Drawing.Size(386, 24);
             this.txtCourseCode.TabIndex = 8;
+            this.txtCourseCode.TextChanged += new System.EventHandler(this.txtCourseCode_TextChanged);
             // 
             // txtCourseName
             // 

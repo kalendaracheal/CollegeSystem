@@ -17,7 +17,19 @@ namespace CollegeApp
         {
             InitializeComponent();
         }
+        public string CourseCode { get; set; }
+        public string CourseName { get; set; }
 
+      
+        public void SetCourse(string CourseCode, string CourseName)
+        {
+            this.CourseCode = CourseCode;
+            this.CourseName = CourseName;
+        }
+        public string GetCourse()
+        {
+            return CourseName;
+        }
         private void Course_Load(object sender, EventArgs e)
         {
 
@@ -159,5 +171,7 @@ namespace CollegeApp
             cnn.Close();
 
         }
+
+      
     }
 }

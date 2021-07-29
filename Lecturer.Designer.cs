@@ -256,6 +256,7 @@ namespace CollegeApp
             this.Font = new System.Drawing.Font("Constantia", 8F, System.Drawing.FontStyle.Bold);
             this.Name = "Lecturer";
             this.Text = "Lecturer";
+            this.Load += new System.EventHandler(this.Lecturer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
