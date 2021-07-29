@@ -14,11 +14,11 @@ namespace CollegeApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            // Application.Run(new Student());
+            Application.Run(new Student());
             // Application.Run(new Lecturer());
             //Application.Run(new Department());
             //Application.Run(new LectureRooms());
-            Application.Run(new Course());
+            //Application.Run(new Course());
             Student st = new Student();
             Lecturer l = new Lecturer();
         }
